@@ -35,10 +35,13 @@
 </div>
 
 
-<button type="button" class="btn btn-default navbar-btn">About Us</button>
+<button type="button" class="btn btn-default navbar-btn"><%= link_to 'about_us', controller: 'about_us' %> </button>
 
-<%= link_to 'Contact', controller: 'contact' %> 
-<button type="button" class="btn btn-default navbar-btn"><%= link_to 'Contact', controller: 'contact' %> </button>
+
+
+<button type="button" class="btn btn-default navbar-btn">
+
+  <%= link_to 'Contact', controller: 'contact' %> </button>
 
 
 </body>
