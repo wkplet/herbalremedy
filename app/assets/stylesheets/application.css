@@ -1,3 +1,25 @@
 .page_body {
     background-image: url("http://www.earthlyenergiesskincare.com.au/theme/theme7/images/background.jpg");
 }
+
+button {
+font-size: 25px;
+font-family: monospace;
+text-align: center;
+border-radius: 10px;
+color: #ffffff;
+
+}
+
+h1 {
+color: #000f0f;
+font-size: 50px;
+
+}
+
+p {
+font-size: 19px;
+color:  #ffffff;
+
+
+}
